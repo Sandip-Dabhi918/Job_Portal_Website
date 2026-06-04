@@ -144,69 +144,6 @@ JobJunction/
 └── README.md
 ```
 
-## Installation & Setup
-
-### Clone the Repository
-
-```bash
-git clone <repository_url>
-```
-
-### Navigate to the Project
-
-```bash
-cd JobJunction
-```
-
-### Install Backend Dependencies
-
-```bash
-cd backend
-npm install
-```
-
-### Install Frontend Dependencies
-
-```bash
-cd frontend
-npm install
-```
-
-### Configure Environment Variables
-
-Create `.env` files in both frontend and backend directories and add:
-
-```env
-MONGODB_URI=your_mongodb_connection_string
-JWT_SECRET=your_secret_key
-
-FIREBASE_API_KEY=your_api_key
-FIREBASE_AUTH_DOMAIN=your_auth_domain
-FIREBASE_PROJECT_ID=your_project_id
-```
-
-### Run Backend Server
-
-```bash
-cd backend
-npm start
-```
-
-### Run Frontend Server
-
-```bash
-cd frontend
-npm start
-```
-
-### Access the Application
-
-```bash
-http://localhost:3000
-```
-
----
-
 ## Future Enhancements
 
 * Resume upload functionality
